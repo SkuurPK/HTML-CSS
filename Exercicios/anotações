@@ -1,0 +1,17 @@
+height - altura
+width - largura
+border - borda
+padding - preenchimento (engordar o elemento para borda ficar distante do conteudo)
+margin - preenchimento da borda para fora
+outline - contorno por fora da borda(border)
+
+TIPOS DE CAIXA
+
+box-level
+sempre se inicia em uma linha nova
+sempre ocupa a largura inteira do viewport (área branca do navegador)
+
+inline-level
+é uma caixa na mesma linha
+não ocupa tamanho inteiro
+é responsivel de acordo com o conteudo

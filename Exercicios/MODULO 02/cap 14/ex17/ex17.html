@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        body { 
+
+            font-family: Arial, Helvetica, sans-serif;
+
+            /* Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmenmte = 1em
+            */
+            font-size: 1em;
+
+            /* lighter normal bold bolder */
+         
+        }
+
+        h1 {
+            
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family */
+
+            /* Ao inves de utilizar esse codigo gigante */
+
+            /* font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+
+          
+            /* utilize somente isso (sorthand font) */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem expedita impedit consectetur dolor? Dolores, culpa qui libero maiores repellat obcaecati dolorem maxime eligendi ea aperiam! Repudiandae voluptatibus qui labore culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nostrum at ipsam eveniet voluptas, impedit nobis fuga earum ipsa vitae quaerat ducimus reiciendis ipsum veritatis placeat. Reprehenderit culpa fugit ullam!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolor earum, odio amet, maiores asperiores delectus voluptatem doloremque ab, officia tempore! Distinctio, maxime ipsum? Repellat voluptatibus ea excepturi id labore!</p>
+
+    <h2>Subtítulo do exercicio</h2>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nihil at harum, magni saepe optio nisi nam cum quasi similique natus libero! Omnis totam quaerat porro aspernatur ad et cum!</p>
+</body>
+</html>

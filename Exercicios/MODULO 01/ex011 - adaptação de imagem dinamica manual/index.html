@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia em HTML5</title>
+</head>
+<body>
+    
+
+    <h1>Reprodução de audio na pagina</h1>
+    <p>sempre lembrar de colocar o parametro controls autoplay</p>
+    
+    <audio preload="metadata" autoplay controls>
+
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg"> 
+        
+        <p>Infelizmente não foi possivel reproduzir o audio em seu navegador, <a href="midia/guanacast-33.mp3">clique aqui para baixar o arquivo mp3</a></p>
+    
+    </audio>
+
+
+
+    <br>
+
+    <H1>Imagem Dinâmicas</H1>
+    <p>Tente abrir essa imagem em diferentes dispositivos com a imagem alterando o tamanho de maneira automatica</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem Flexivel">
+    </picture>
+
+   
+</body>
+</html>

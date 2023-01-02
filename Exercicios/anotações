@@ -4,6 +4,8 @@ border - borda
 padding - preenchimento (engordar o elemento para borda ficar distante do conteudo)
 margin - preenchimento da borda para fora
 outline - contorno por fora da borda(border)
+background-repeat (repeat, no-reapeat, repeat-x, repeat-y) - metodos de repetição de imagens
+background-size cover - metodo de preenchimento de imagem para caber em todos tamanhos de monitores
 
 TIPOS DE CAIXA
 
@@ -15,3 +17,4 @@ inline-level
 é uma caixa na mesma linha
 não ocupa tamanho inteiro
 é responsivel de acordo com o conteudo
+

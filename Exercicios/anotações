@@ -7,6 +7,8 @@ outline - contorno por fora da borda(border)
 background-repeat (repeat, no-reapeat, repeat-x, repeat-y) - metodos de repetição de imagens
 background-size cover - metodo de preenchimento de imagem para caber em todos tamanhos de monitores
 transform: translate(-50%, -50%); (centralizar 100% do elemento)
+iframe = quadro em linha 
+scolling="no" = desativar barra de rolagem
 
 TIPOS DE CAIXA
 

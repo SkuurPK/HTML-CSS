@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 0px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .amarelo{
+            background-color: yellow;
+        }
+        .vermelho {
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="vermelho" span="2">
+            <col class="amarelo">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <th>Ana Maria</th>
+            <th>F</th>
+            <th>25</th>
+            <th>Jornalista</th>
+        </tr>
+        <tr>
+            <th>Fábio Rassele</th>
+            <th>M</th>
+            <th>22</th>
+            <th>Planejador Jr.</th>
+        </tr>
+        <tr>
+            <th>Ana Luiza</th>
+            <th>F</th>
+            <th>21</th>
+            <th>Dona de Casa</th>
+        </tr>
+        <tr>
+            <th>Simone</th>
+            <th>F</th>
+            <th>45</th>
+            <th>Farmacia</th>
+        </tr>
+        <tr>
+            <th>Jadson</th>
+            <th>M</th>
+            <th>52</th>
+            <th>Porteiro</th>
+        </tr>
+    </table>
+</body>
+</html>

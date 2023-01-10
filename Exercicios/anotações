@@ -21,3 +21,8 @@ inline-level
 não ocupa tamanho inteiro
 é responsivel de acordo com o conteudo
 
+centralizar div
+div#celular {
+    text-align: center;
+    margin: auto;
+}

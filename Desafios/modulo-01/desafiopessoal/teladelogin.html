@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        form {
+            text-align: center;
+            background-color: lightcoral;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 311px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.671);
+        }
+        
+        form>input.iusuario {
+            background-color: black;
+        }
+
+        form>h3 {
+            background-color: black;
+            color: white;
+            position: relative;
+            height: 30px;
+            text-align: auto;
+            margin: 0px;
+        }
+
+        p.footer {
+            text-shadow: 2px 2px 2px 1px black;
+            background-color: black;
+            color: white;
+            margin: 25px 0px 0px 0px;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <h3>Faça seu cadastro</h3>
+        <p><label for="idusuario">Escreva seu usuário</label><br>
+            <input type="text" name="usuario" id="iusuario"></p>
+        <p><label for="idsenha">Escreva sua senha</label><br>
+            <input type="password" name="senha" id="isenha"></p>
+        <input type="submit" value="Confirmar">
+        
+        <p class="footer">Criado por SkurPK</p>
+    </form>
+</body>
+</html>

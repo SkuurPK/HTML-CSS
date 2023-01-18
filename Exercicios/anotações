@@ -9,6 +9,8 @@ background-size cover - metodo de preenchimento de imagem para caber em todos ta
 transform: translate(-50%, -50%); (centralizar 100% do elemento)
 iframe = quadro em linha 
 scolling="no" = desativar barra de rolagem
+existem apenas dois metodos para envio de formulario GET(padrão) e POST
+Post para dados mais sensiveis.
 
 TIPOS DE CAIXA
 

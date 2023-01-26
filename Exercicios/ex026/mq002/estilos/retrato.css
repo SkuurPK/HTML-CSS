@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
 /* Configurações aparelho em pé */
+
+body {
+    background-color: yellow;
+    background: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
+}

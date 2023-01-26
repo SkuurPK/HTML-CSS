@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+
+        /* METODO 02 */
+        
+        /* Declarações gerais */
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html, body {
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(58, 12, 185);
+            background-size: auto;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            color: white;
+            text-shadow: 3px 3px 0px rgba(22, 2, 77, 0.397);
+            padding: 10px;
+        }
+
+        /* Declarações Retrato */
+        @media screen and (orientation: portrait) {
+            body {
+                background-color: yellow;
+                background: url(imagens/cev-portrait.jpg);
+                background-position: center bottom;
+            }
+        }
+
+        /* Declarações Paisagem */
+        @media screen and (orientation: landscape) {
+            body {
+                background-color: orange;
+                background: url(imagens/cev-landscape.jpg);
+                background-position: left bottom;
+                background-repeat: no-repeat;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Mude a orientação dos seus dispositivos.</h1>
+</body>
+</html>
